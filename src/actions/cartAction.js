@@ -4,7 +4,7 @@ import {
   SAVE_SHIPPING_INFO,
 } from "../constants/cartConstants";
 import axios from "axios";
-axios.defaults.withCredentials = true;
+// axios.defaults.withCredentials = true;
 
 
 // Add to Cart

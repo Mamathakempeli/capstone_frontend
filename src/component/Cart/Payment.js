@@ -19,7 +19,7 @@ import EventIcon from "@material-ui/icons/Event";
 import VpnKeyIcon from "@material-ui/icons/VpnKey";
 import { createOrder, clearErrors } from "../../actions/orderAction";
 const Payment = ({ history }) => {
-  axios.defaults.withCredentials = true;
+  // axios.defaults.withCredentials = true;
   const orderInfo = JSON.parse(sessionStorage.getItem("orderInfo"));
 
   const dispatch = useDispatch();

@@ -30,7 +30,7 @@ import {
   DELETE_REVIEW_FAIL,
   CLEAR_ERRORS,
 } from "../constants/productConstants.js";
-axios.defaults.withCredentials = true;
+// axios.defaults.withCredentials = true;
 
 
 

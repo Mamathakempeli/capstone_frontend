@@ -44,7 +44,7 @@ import About from "./component/layout/About/About.js";
 import NotFound from "./component/layout/Not Found/NotFound.js";
 
 function App() {
-  axios.defaults.withCredentials = true;
+  // axios.defaults.withCredentials = true;
 
   const { isAuthenticated, user } = useSelector((state) => state.user);
 

@@ -37,7 +37,7 @@ import {
   CLEAR_ERRORS,
 } from "../constants/userConstants.js";
 import axios from "axios";
-axios.defaults.withCredentials = true;
+// axios.defaults.withCredentials = true;
 
 
 // Login
